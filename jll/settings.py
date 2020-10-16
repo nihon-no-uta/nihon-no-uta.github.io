@@ -27,7 +27,7 @@ SECRET_KEY = 'c&k425&ienrq_8=6(f$4#2i$au+8+dyz8n=hc54m)c7w)rm(#x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8c73f59903fa.ngrok.io','127.0.0.1','japanese-song-lyrics.herokuapp.com','atharva1797.pythonanywhere.com','Atharva1797.pythonanywhere.com']
+ALLOWED_HOSTS = ['bce34e3fe051.ngrok.io','8c73f59903fa.ngrok.io','127.0.0.1','japanese-song-lyrics.herokuapp.com','atharva1797.pythonanywhere.com','Atharva1797.pythonanywhere.com']
 
 # Application definition
 
