@@ -3,7 +3,9 @@ Fabric
 argparse
 boto
 coverage
+gunicorn
 django-debug-toolbar
+django-heroku
 greeking
 flake8
 psycopg2

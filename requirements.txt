@@ -13,17 +13,20 @@ cffi==1.14.3              # via bcrypt, cryptography, pynacl
 chardet==3.0.4            # via requests
 coverage==5.3             # via -r requirements.in, python-coveralls
 cryptography==3.1.1       # via paramiko
+dj-database-url==0.5.0    # via django-heroku
 django-debug-toolbar==3.1.1  # via -r requirements.in
-django==3.1.2             # via -r requirements.in, django-debug-toolbar
+django-heroku==0.3.1      # via -r requirements.in
+django==3.1.2             # via -r requirements.in, django-debug-toolbar, django-heroku
 fabric==2.5.0             # via -r requirements.in
 flake8==3.8.4             # via -r requirements.in
 greeking==2.2.0           # via -r requirements.in
+gunicorn==20.0.4          # via -r requirements.in
 idna==2.10                # via requests
 importlib-metadata==2.0.0  # via flake8
 invoke==1.4.1             # via fabric
 mccabe==0.6.1             # via flake8
 paramiko==2.7.2           # via fabric
-psycopg2==2.8.6           # via -r requirements.in
+psycopg2==2.8.6           # via -r requirements.in, django-heroku
 pycodestyle==2.6.0        # via flake8
 pycparser==2.20           # via cffi
 pycrypto==2.6.1           # via -r requirements.in
@@ -37,4 +40,8 @@ requests==2.24.0          # via python-coveralls
 six==1.15.0               # via -r requirements.in, bcrypt, cryptography, greeking, pynacl, python-coveralls, python-memcached
 sqlparse==0.4.0           # via -r requirements.in, django, django-debug-toolbar
 urllib3==1.25.10          # via requests
+whitenoise==5.2.0         # via django-heroku
 zipp==3.3.0               # via importlib-metadata
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
