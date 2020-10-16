@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
-import django-heroku # FOR HEROKU ONLY
+import django_heroku # FOR HEROKU ONLY
 import os
 import argparse
 
