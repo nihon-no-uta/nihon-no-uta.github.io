@@ -40,7 +40,7 @@ requests==2.24.0          # via python-coveralls
 six==1.15.0               # via -r requirements.in, bcrypt, cryptography, greeking, pynacl, python-coveralls, python-memcached
 sqlparse==0.4.0           # via -r requirements.in, django, django-debug-toolbar
 urllib3==1.25.10          # via requests
-whitenoise==5.2.0         # via django-heroku
+whitenoise==5.2.0         # via -r requirements.in, django-heroku
 zipp==3.3.0               # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:

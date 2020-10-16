@@ -6,6 +6,7 @@ coverage
 gunicorn
 django-debug-toolbar
 django-heroku
+whitenoise
 greeking
 flake8
 psycopg2
