@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
-import django_heroku # FOR HEROKU ONLY
+# import django_heroku # FOR HEROKU ONLY
 import os
 import argparse
 
@@ -27,7 +27,7 @@ SECRET_KEY = 'c&k425&ienrq_8=6(f$4#2i$au+8+dyz8n=hc54m)c7w)rm(#x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['f4ecf1128d78.ngrok.io','127.0.0.1','japanese-song-lyrics.herokuapp.com','atharva1797.pythonanywhere.com','Atharva1797.pythonanywhere.com']
+ALLOWED_HOSTS = ['8c73f59903fa.ngrok.io','127.0.0.1','japanese-song-lyrics.herokuapp.com','atharva1797.pythonanywhere.com','Atharva1797.pythonanywhere.com']
 
 # Application definition
 
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware', # heroku only
+    # 'whitenoise.middleware.WhiteNoiseMiddleware', # heroku only
 ]
 
 ROOT_URLCONF = 'jll.urls'
@@ -122,4 +122,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-django_heroku.settings(locals()) # FOR HEROKU ONLY
+# django_heroku.settings(locals()) # FOR HEROKU ONLY
